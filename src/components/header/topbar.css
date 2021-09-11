@@ -1,0 +1,51 @@
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 2px 0 rgb(144, 144, 144);
+}
+
+.header_item {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bell svg {  
+font-size: 25px;
+margin-right: 40px;
+cursor: pointer;
+}
+
+.profile {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_dropdown .btn-primary {
+    background: none !important;
+    color: #000 !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.profile_dropdown .dropdown-menu {
+    text-align: center !important;
+}
+.profile_dropdown .dropdown-item {
+    color: red !important;
+}
+
+.profile_dropdown .dropdown-menu.show {
+    margin-top:10px !important;
+}
