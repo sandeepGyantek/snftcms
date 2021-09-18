@@ -42,10 +42,15 @@ cursor: pointer;
 .profile_dropdown .dropdown-menu {
     text-align: center !important;
 }
+
 .profile_dropdown .dropdown-item {
     color: red !important;
 }
 
+.dropdown-item:hover {
+    background: none !important;
+}
+
 .profile_dropdown .dropdown-menu.show {
-    margin-top:10px !important;
+    margin-top: 5px !important;
 }

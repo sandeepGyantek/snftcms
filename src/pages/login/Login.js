@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
 import './login.css';
-import Image from '../../assets/images/authentication-bg.jpg';
+import LoginImg from '../../assets/images/authentication-bg.jpg';
 import Logo from '../../assets/images/logo.png';
 import { RiUser2Line } from "react-icons/ri";
 import { BiLock } from "react-icons/bi";
@@ -54,7 +54,7 @@ const Login = () => {
                 </div>
                 <div className="right_contant">
                     <div className="login_bg_image">
-                         <img src={Image} alt="bg-image" />
+                         <img src={LoginImg} alt="bg-img" />
                     </div>
                    
                 </div>
